@@ -1,1 +1,6 @@
 基于yolox和lprnet实现的车牌识别，同时可在atlas200dk上运行
+纯ai，可在colab上复现，但在colab上复现不太可能（乱到我现在就忘了）
+用了ccpd2020的绿牌训练集，github上的公开训练集，yolox框架，和yolox-nano的预训练权重（笔记本中）
+权重和训练格式在对应目录下
+今天才发现om文件忘下到本地了，opset11的权重支持atc6.0.1转换，yolox格式是640*640，lprnet格式是24*160，atlas目录下的可以直接转
+lprnet的识别比较糟糕，有时间再重新练（那就是没时间
